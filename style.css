@@ -743,9 +743,22 @@ h4 {
     font-weight: 600;
     line-height: 1.6em
 }
-.white a {
+.col-sm-12 h2 {
     color: black!important;
+    font-size: 22px;
     font-weight: 600;
+    line-height: 1.6em;
+}
+.col-sm-12 p {
+    color: white!important;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+
+.mailto {
+    color: black!important;
+    font-weight: 400;
 }
 .white-2 {
     color: #FFFFFF!important;
@@ -775,7 +788,7 @@ h4 {
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline!important;
+    text-decoration: white!important;
 }
 
 .bgc-white {
@@ -811,7 +824,7 @@ h4 {
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: white!important;
 }
 
 .ltc-atomic-tangerine {
