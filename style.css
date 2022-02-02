@@ -438,6 +438,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    font-size: 18px;
 }
 
 .mg-lg {
@@ -677,7 +678,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -702,6 +703,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    padding-top: 1.5rem;
 }
 
 h2 {
@@ -723,7 +725,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: white!important;
 }
 
 h4 {
@@ -737,6 +739,14 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-size: 18px;
+    line-height: 1.6em
+}
+.white-2 {
+    color: #FFFFFF!important;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.6em
 }
 
 .portfolio-thumb {
@@ -753,7 +763,8 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: black;
+    opacity: .7;
     padding: 40px 40px 40px 40px;
 }
 
@@ -774,13 +785,15 @@ h4 {
     background-color: #F3976C;
 }
 
-.tc-white {
-    color: #F3976C!important;
+.tc-white h2 {
+    color: white!important;
+    font-size: 22px;
+    line-height: 1.4em;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -823,6 +836,12 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+}
+
+.avis__text {
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 1rem;
 }
 
 @media (max-width: 1024px) {
