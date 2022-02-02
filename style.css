@@ -738,9 +738,14 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: black!important;
     font-size: 18px;
+    font-weight: 600;
     line-height: 1.6em
+}
+.white a {
+    color: black!important;
+    font-weight: 600;
 }
 .white-2 {
     color: #FFFFFF!important;
